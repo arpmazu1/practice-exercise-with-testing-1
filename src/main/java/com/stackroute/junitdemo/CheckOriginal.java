@@ -3,6 +3,7 @@ package com.stackroute.junitdemo;
 import java.util.Scanner;
 
 public class CheckOriginal {
+    //checking if the number entered is more,lessor equal to original number
     public String Checker(int num){
         int original=60;
         if (num < original)

@@ -1,6 +1,7 @@
 package com.stackroute.junitdemo;
 
 public class PrintPattern {
+    //printing pattern of numbers
     public String Pattern(int n ){
      if(n==0)
          return "Not allowed";
@@ -14,6 +15,6 @@ public class PrintPattern {
                 s=s+i;
 
         }
-    return s;
+    return s; //storing it in string and returning it
     }
 }

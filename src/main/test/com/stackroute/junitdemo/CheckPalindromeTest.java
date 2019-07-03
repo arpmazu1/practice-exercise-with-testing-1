@@ -58,4 +58,15 @@ public class CheckPalindromeTest {
         //Assert
         assertEquals("Not Palindrome",result);
     }
+
+    @Test
+    public void givenNegativeNumberShouldReturnErrorMessage(){
+        //arange
+
+        //Act
+        String result= pal.palindrome(-1234 );
+
+        //Assert
+        assertEquals("negative value",result);
+    }
 }

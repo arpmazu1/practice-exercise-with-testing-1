@@ -1,6 +1,7 @@
 package com.stackroute.junitdemo;
 
 public class CheckVowel {
+    //check if the characters is vowel or consonent and print it accordingly
     public String Checker(String str) {
         int i;
         int len;
